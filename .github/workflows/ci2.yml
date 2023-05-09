@@ -1,0 +1,10 @@
+name: secondci
+on:
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  buildci2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
